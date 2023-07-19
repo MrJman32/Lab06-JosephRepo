@@ -2,12 +2,11 @@ def encoder(string):
     encoded_string = []  # empty list
 
     for ii in string:
-        encoded_char = str((int(ii) + 3) % 10)  # 
+        encoded_char = str((int(ii) + 3) % 10)  #
         encoded_string += encoded_char
-        encoded_string = ''.join(encoded_string)
+    encoded_string = ''.join(encoded_string)
 
     return encoded_string
-
 
 
 #Isabella Camacho Decoder
